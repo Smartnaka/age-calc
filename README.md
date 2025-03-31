@@ -1,51 +1,61 @@
-# Welcome to your Expo app 👋
+# Age-Calc
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Age-Calc is a simple yet powerful React Native application built with Expo that allows users to calculate their exact age in years, months, and days based on their date of birth.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Input your date of birth
+- Instant calculation of age
+- Displays age in years, months, and days
+- User-friendly interface
+- Cross-platform support (Android & iOS)
 
-   ```bash
+## Installation
+
+Ensure you have **Node.js**, **Expo CLI**, and **Git** installed on your system.
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/age-calc.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd age-calc
+   ```
+3. Install dependencies:
+   ```sh
    npm install
    ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
+4. Start the app:
+   ```sh
+   expo start
    ```
 
-In the output, you'll find options to open the app in a
+## Usage
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Open the app on your device/emulator.
+- Enter your date of birth in the provided field.
+- The app will instantly display your age in years, months, and days.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Screenshot
 
-## Get a fresh project
+![Age-Calc Screenshot](screenshot.png)
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Technologies Used
 
-## Learn more
+- **React Native**
+- **Expo**
+- **JavaScript/TypeScript** (if applicable)
 
-To learn more about developing your project with Expo, look at the following resources:
+## Contributing
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Feel free to contribute by submitting issues or pull requests.
 
-## Join the community
+## License
 
-Join our community of developers creating universal apps.
+This project is licensed under the MIT License.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-"# age-calc" 
+##
+
